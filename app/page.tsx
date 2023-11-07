@@ -3,8 +3,8 @@ const URL =
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <iframe src={URL} />
+    <main className="h-screen w-screen">
+      <iframe src={URL} className="h-screen w-screen" />
     </main>
   );
 }
